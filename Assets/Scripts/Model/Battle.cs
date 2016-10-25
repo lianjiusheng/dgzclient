@@ -40,7 +40,7 @@ public class Battle {
     }
 
     public void execute() {
-        Debug.Log("Battle execute...");
+       // Debug.Log("Battle execute...");
     } 
 
 }
