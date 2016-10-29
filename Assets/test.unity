@@ -526,24 +526,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
---- !u!1 &514877675 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 155796, guid: 4875d2259388d2f4b8a6a33afb8c3a60, type: 2}
-  m_PrefabInternal: {fileID: 1801954755}
---- !u!114 &514877676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 514877675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc0bad673a1c7f469f5282da3cbd01f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxSpeed: 20
-  offset: 10
-  spritName: guanyu
 --- !u!1 &519264349
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,19 +888,6 @@ Prefab:
     - target: {fileID: 472516, guid: c2f6f93179a3d3740b52e87392ac74ef, type: 2}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 21227404, guid: c2f6f93179a3d3740b52e87392ac74ef, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0df6f1d1eef1f504e93a11002495730e,
-        type: 3}
-    - target: {fileID: 21227404, guid: c2f6f93179a3d3740b52e87392ac74ef, type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 184852, guid: c2f6f93179a3d3740b52e87392ac74ef, type: 2}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c2f6f93179a3d3740b52e87392ac74ef, type: 2}
@@ -1370,23 +1339,6 @@ Prefab:
     - target: {fileID: 408360, guid: 4875d2259388d2f4b8a6a33afb8c3a60, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 21213804, guid: 4875d2259388d2f4b8a6a33afb8c3a60, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: ef5409c0701becf458b43fe2422692e2,
-        type: 3}
-    - target: {fileID: 21213804, guid: 4875d2259388d2f4b8a6a33afb8c3a60, type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9541524, guid: 4875d2259388d2f4b8a6a33afb8c3a60, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21213804, guid: 4875d2259388d2f4b8a6a33afb8c3a60, type: 2}
-      propertyPath: m_FlipX
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4875d2259388d2f4b8a6a33afb8c3a60, type: 2}
